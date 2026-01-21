@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bài 2 part 1</title>
+</head>
+
+<body>
+  <!-- Mark -->
+  <h4>Mark</h4>
+  <input id="Mmass" type="text" />
+  <input id="Mheight" type="text" />
+
+  <!-- John -->
+  <h4>John</h4>
+  <input id="Jmass" type="text" />
+  <input id="Jheight" type="text" />
+
+  <div>
+    <button id="Calc" onclick="calculate()" style="margin-top: 20px; margin-left:130px;">Calculate</button>
+  </div>
+
+  <script>
+    function calculate(){
+      // var btn = document.getElementById("Calc");
+
+      var Mmass = parseFloat(document.getElementById("Mmass").value);
+      var Mheight = parseFloat(document.getElementById("Mheight").value);
+      var Jmass = parseFloat(document.getElementById("Jmass").value);
+      var Jheight = parseFloat(document.getElementById("Jheight").value);
+
+      var Mbmi = Mmass / (Mheight * Mheight);
+      var Jbmi = Jmass / (Jheight * Jheight);
+
+      console.log("Mark BMI: " + Mbmi);
+      console.log("John BMI: " + Jbmi);
+
+      if (Mbmi > Jbmi) {
+        console.log("Mark's BMI(" + Mbmi + ") is higher than John's!(" + Jbmi + ")");
+      }
+      else if (Mbmi < Jbmi) {
+        console.log("John's BMI (" + Jbmi + ") is higher than Mark's!(" + Mbmi + ")");
+      }
+      else {
+        console.log("equal");
+      }
+    };
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div><h3>Dolphins</h3></div>
+    <div>
+      <input type="text" name="" id="Dpscore1" />
+      <input type="text" name="" id="Dpscore2" />
+      <input type="text" name="" id="Dpscore3" />
+    </div>
+    <div><h3>Koalas</h3></div>
+    <div>
+      <input type="text" name="" id="Kolscore1" />
+      <input type="text" name="" id="Kolscore2" />
+      <input type="text" name="" id="Kolscore3" />
+    </div>
+    <div><button id="calc">Calculate</button></div>
+    <script>
+      // Ham calcAverage
+      const calcAverage = (n1, n2, n3) => (n1 + n2 + n3) / 3;
+
+      const checkWinner = (avgD, avgK) => {
+        if (avgD >= avgK * 2) {
+          console.log("Dolphins win (" + avgD + " vs. " + avgK + ")");
+        } else if (avgK >= avgD * 2) {
+          console.log("Koalas win (" + avgK + " vs. " + avgD + ")");
+        } else {
+          console.log("No team wins");
+        }
+      };
+
+      calc.onclick = () => {
+        var Dpscore1 = parseInt(document.getElementById("Dpscore1").value);
+        var Dpscore2 = parseInt(document.getElementById("Dpscore2").value);
+        var Dpscore3 = parseInt(document.getElementById("Dpscore3").value);
+
+        var Kolscore1 = parseInt(document.getElementById("Kolscore1").value);
+        var Kolscore2 = parseInt(document.getElementById("Kolscore2").value);
+        var Kolscore3 = parseInt(document.getElementById("Kolscore3").value);
+
+        var Dpavg = calcAverage(Dpscore1, Dpscore2, Dpscore3);
+        var Kolavg = calcAverage(Kolscore1, Kolscore2, Kolscore3);
+
+        console.log(Dpavg);
+        console.log(Kolavg);
+
+        checkWinner(Dpavg, Kolavg);
+      };
+    </script>
+  </body>
+</html>
