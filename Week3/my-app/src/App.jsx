@@ -13,10 +13,18 @@ function App() {
   const [type, setType] = useState('success'); // trạng thái mặc định = success
 
   // Bài 4 - Login Form
-  const [typeForm, setTypeForm] = useState('success'); 
+  const [typeForm, setTypeForm] = useState('success');
   const [show, setShow] = useState(false);
 
-
+  // Bài 5 - Product List
+  const data = [
+    { name: "Ipad", price: "120.000", image: "https://picsum.photos/200?1" },
+    { name: "PC", price: "200.000", image: "https://picsum.photos/200?2" },
+    { name: "Tablet12", price: "350.000", image: "https://picsum.photos/200?3" },
+    { name: "PC2", price: "90.000", image: "https://picsum.photos/200?4" },
+    { name: "Laptop", price: "150.000", image: "https://picsum.photos/200?5" },
+    { name: "Monitor", price: "80.000", image: "https://picsum.photos/200?6" }
+  ];
 
   return (
 
@@ -62,11 +70,14 @@ function App() {
       </div>
 
       {/* Bài 5 */}
-      <div style={{ marginTop: '40px' }}>
 
+      <div style={{ marginTop: '70px' }}>
+        <ProductList
+          product={data}
+        ></ProductList>
       </div>
 
-      
+
 
 
       {/* ====== Buổi 2 ======*/}
