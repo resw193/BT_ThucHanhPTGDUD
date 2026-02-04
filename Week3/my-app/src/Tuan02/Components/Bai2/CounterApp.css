@@ -1,0 +1,20 @@
+.counter-app {
+    padding: 12px;
+    margin: 12px auto;
+    border: 2px solid hsl(0, 0%, 80%);
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: -4px 10px 8px hsl(0, 0%, 90%);
+}
+
+.red {
+    color: red;
+}
+
+button {
+    padding: 6px 14px;
+    margin: 12px;
+    background-color: hsl(266, 72%, 80%);
+    border-radius: 12px;
+    color: #3b2121;
+}

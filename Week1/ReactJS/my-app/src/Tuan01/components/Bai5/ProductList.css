@@ -1,0 +1,28 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mặc định desktop (3 cột) */
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+}

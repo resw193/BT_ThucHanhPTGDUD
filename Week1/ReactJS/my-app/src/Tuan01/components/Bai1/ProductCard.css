@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.product-card {
+    padding: 12px;
+    transition: all 0.3s ease;
+
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* h-v-blur-color*/
+}
+
+.product-card:hover {
+    transform: translateY(-8px);  /* y < 0: lên trên*/
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+    border-radius: 16px;
+    box-shadow: -6px 10px 6px rgba(0, 0, 0, 0.3);
+}
+
+.product-info{
+    margin-top: 16px;
+}
+
+.product-title {
+    color: #333;
+}
+
+.product-price {
+    color: #333;
+}
+
+.product-btn {
+    margin-top: 10px;
+}
