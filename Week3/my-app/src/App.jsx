@@ -120,6 +120,46 @@ function App() {
         <TodoApp></TodoApp>
       </div>
 
+      
+
+
+      {/* ====== Buổi 3 ======*/}
+      {/* Bài 1 */}
+      <div style={{ marginTop: '70px' }}>
+
+      </div>
+
+      {/* Bài 2 */}
+      <div style={{ marginTop: '70px' }}>
+
+      </div>
+
+      {/* Bài 3 */}
+      <div style={{ marginTop: '70px' }}>
+        
+      </div>
+
+      {/* Bài 4 */}
+      <div style={{ marginTop: '70px' }}>
+        
+      </div>
+
+      {/* Bài 5 */}
+      <div style={{ marginTop: '70px' }}>
+        
+      </div>
+
+      {/* Bài 6 */}
+      <div style={{ marginTop: '70px' }}>
+        
+      </div>
+
+      {/* Bài 7 */}
+      <div style={{ marginTop: '70px' }}>
+        
+      </div>
+
+
     </div>
 
   )

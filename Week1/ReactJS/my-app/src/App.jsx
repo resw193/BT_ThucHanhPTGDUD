@@ -7,13 +7,6 @@ import Button from './Tuan01/components/Bai2/Button'
 import Alert from './Tuan01/components/Bai3/Alert'
 import LoginForm from './Tuan01/components/Bai4/LoginForm'
 import ProductList from './Tuan01/components/Bai5/ProductList'
-import Header from './Tuan02/Components/Bai1/Header'
-import StudentInfo from './Tuan02/Components/Bai1/StudentInfo'
-import Footer from './Tuan02/Components/Bai1/Footer'
-import CounterApp from './Tuan02/Components/Bai2/CounterApp'
-import ControlledForm from './Tuan02/Components/Bai3/ControlledForm'
-import StatusBadge from './Tuan02/Components/Bai4/StatusBadge'
-import TodoApp from './Tuan02/Components/Bai5/ToDoApp'
 
 
 function App() {
@@ -34,9 +27,6 @@ function App() {
     { name: "Laptop", price: "150.000", image: "https://picsum.photos/200?5" },
     { name: "Monitor", price: "80.000", image: "https://picsum.photos/200?6" }
   ];
-
-
-  // ====== Buổi 2 ======
 
   return (
 
@@ -87,37 +77,6 @@ function App() {
         <ProductList
           product={data}
         ></ProductList>
-      </div>
-
-
-
-
-      {/* ====== Buổi 2 ======*/}
-      {/* Bài 1 */}
-      <div style={{ marginTop: '70px' }}>
-        <Header></Header>
-        <StudentInfo hoTen='Nguyễn Bảo Định' mssv='23731621' lop='DHKTPM19B'></StudentInfo>
-        <Footer></Footer>
-      </div>
-
-      {/* Bài 2 */}
-      <div style={{ marginTop: '70px' }}>
-        <CounterApp></CounterApp>
-      </div>
-
-      {/* Bài 3 */}
-      <div style={{ marginTop: '70px' }}>
-        <ControlledForm></ControlledForm>
-      </div>
-
-      {/* Bài 4 */}
-      <div style={{ marginTop: '70px' }}>
-        <StatusBadge trangThai='offline'></StatusBadge>
-      </div>
-
-      {/* Bài 5 */}
-      <div style={{ marginTop: '70px' }}>
-        <TodoApp></TodoApp>
       </div>
 
     </div>
