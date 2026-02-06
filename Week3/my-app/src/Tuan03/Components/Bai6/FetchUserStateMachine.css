@@ -1,0 +1,57 @@
+.container {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.1)
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: 500;    
+    color: red;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.loading-text {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.box.error {
+    background-color: #fff5f5;
+    color: #d8000c;
+}
+
+.user-list {
+    text-align: center;
+
+}
+
+.user-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,45 @@
+.app-container {
+    height: 100vh;
+    transition: all 0.3s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+/* LIGHT THEME */
+.light {
+    background-color: #fff;
+    color: #333333;
+}
+.light .card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+/* DARK THEME */
+.dark {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.dark .card {
+    background-color: #333; 
+    border: 1px solid #555;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Card */
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+.stopwatch-container {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    width: 600px;
+    margin: 12px auto;
+    box-shadow: -2px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    margin: 10px 0;
+}
+
+.lap-history {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    
+}
+
+.lap-history ul{
+    list-style-type: none;
+    padding-left: 0;
+}

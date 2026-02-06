@@ -14,7 +14,13 @@ import CounterApp from './Tuan02/Components/Bai2/CounterApp'
 import ControlledForm from './Tuan02/Components/Bai3/ControlledForm'
 import StatusBadge from './Tuan02/Components/Bai4/StatusBadge'
 import TodoApp from './Tuan02/Components/Bai5/ToDoApp'
-
+import UserForm from './Tuan03/Components/Bai1/UserForm'
+import DigitalClock from './Tuan03/Components/Bai2/DigitalClock'
+import ProductFilter from './Tuan03/Components/Bai3/ProductFilter'
+import TodoApp2 from './Tuan03/Components/Bai4/TodoApp2'
+import StopWatch from './Tuan03/Components/Bai5/StopWatch'
+import FetchUserStateMachine from './Tuan03/Components/Bai6/FetchUserStateMachine'
+import AppThemeSwitcher from './Tuan03/Components/Bai7/AppThemeSwitcher'
 
 function App() {
   // ======= Buổi 1 ======
@@ -126,37 +132,37 @@ function App() {
       {/* ====== Buổi 3 ======*/}
       {/* Bài 1 */}
       <div style={{ marginTop: '70px' }}>
-        
+        <UserForm></UserForm>
       </div>
 
       {/* Bài 2 */}
       <div style={{ marginTop: '70px' }}>
-
+        <DigitalClock></DigitalClock>
       </div>
 
       {/* Bài 3 */}
       <div style={{ marginTop: '70px' }}>
-        
+        <ProductFilter></ProductFilter>
       </div>
 
       {/* Bài 4 */}
       <div style={{ marginTop: '70px' }}>
-        
+        <TodoApp2></TodoApp2>
       </div>
 
       {/* Bài 5 */}
       <div style={{ marginTop: '70px' }}>
-        
+        <StopWatch></StopWatch>
       </div>
 
       {/* Bài 6 */}
       <div style={{ marginTop: '70px' }}>
-        
+        <FetchUserStateMachine></FetchUserStateMachine>
       </div>
 
       {/* Bài 7 */}
       <div style={{ marginTop: '70px' }}>
-        
+        <AppThemeSwitcher></AppThemeSwitcher>
       </div>
 
 

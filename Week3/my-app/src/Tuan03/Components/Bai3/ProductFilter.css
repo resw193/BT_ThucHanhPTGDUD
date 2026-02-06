@@ -1,0 +1,28 @@
+.product-filter {
+    padding: 20px;
+    border: 2px solid #2424ad;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.product-filter input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 230px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 2px solid #d3b3b3;
+    border-radius: 8px;
+}
+
+.product-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
