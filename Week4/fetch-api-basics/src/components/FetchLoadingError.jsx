@@ -38,7 +38,6 @@ function FetchLoadingError() {
 
     return (
         <div>
-
             <ul>
                 {data.map((user) => (
                     <li key={user.id}>

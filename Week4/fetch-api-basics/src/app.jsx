@@ -4,6 +4,9 @@ import viteLogo from '/vite.svg'
 import './app.css'
 import FetchApiBasic from './components/FetchApiBasic'
 import FetchLoadingError from './components/FetchLoadingError'
+import FetchDynamic from './components/FetchDynamic'
+import FetchSearchFilter from './components/FetchSearchFilter'
+import FetchApiAdvanced from './components/FetchApiAdvanced'
 
 export function App() {
 
@@ -21,17 +24,17 @@ export function App() {
 
       {/* Bài 3 */}
       <div style={{ marginTop: '80px' }}>
-
+        <FetchDynamic></FetchDynamic>
       </div>
 
       {/* Bài 4 */}
       <div style={{ marginTop: '80px' }}>
-        
+        <FetchSearchFilter></FetchSearchFilter>
       </div>
 
       {/* Bài 5 */}
       <div style={{ marginTop: '80px' }}>
-        
+        <FetchApiAdvanced></FetchApiAdvanced>
       </div>
     </>
   )
